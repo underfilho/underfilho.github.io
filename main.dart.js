@@ -16094,8 +16094,9 @@ zx:function zx(a){this.a=a},
 mc:function mc(a,b,c){this.a=a
 this.b=b
 this.c=c},
-ro:function ro(a,b){this.a=a
-this.b=b},
+ro:function ro(a,b,c){this.a=a
+this.b=b
+this.c=c},
 h3:function h3(a,b,c,d,e){var _=this
 _.a=a
 _.b=b
@@ -52126,7 +52127,7 @@ return new A.qF(new A.pZ(s),"My Git",A.a9k(s,B.zL,new A.cI(A.ha(s,s,r,s,s,s,s,s,
 A.mc.prototype={}
 A.ro.prototype={
 KA(a){var s,r,q,p,o,n
-for(s=J.aE(J.aL(a,"skills")),r=this.b,q=t.ma;s.t();){p=s.gA(s)
+for(s=J.aE(J.aL(a,"skills")),r=this.c,q=t.ma;s.t();){p=s.gA(s)
 o=A.c([],q)
 n=J.av(p)
 o=new A.BO(n.j(p,"title"),n.j(p,"url_icon"),o)
@@ -52189,14 +52190,14 @@ if(l==null)return A.bq(m,A.p9(A.a7e(new A.lE($.lA(),t.E2)),m,m),m,m,m,m,new A.aJ
 t.ol.a(l)
 s=this.a
 r=s.Sj()
-q=A.bq(m,m,m,m,new A.dd(m,new A.xM(new A.kF("https://i.imgur.com/6tKcSqt.jpg",1),B.tf),m,m,m,m,B.dI),150,m,m,150)
+q=A.bq(m,m,m,m,new A.dd(m,new A.xM(new A.kF(l.b,1),B.tf),m,m,m,m,B.dI),150,m,m,150)
 p=s.c
 p.toString
 p=A.js("Anderson Santos",A.aT(p).P.a,B.cl,m)
 o=s.c
 o.toString
 n=t.E
-return A.k3(A.c([r,A.bq(m,A.k3(A.c([q,A.bq(m,A.k3(A.c([p,new A.ez(new A.aJ(0,20,0,0),m,m),A.js(l.a,A.aT(o).P.r,B.cl,m)],n),B.ar,B.a1),m,m,m,m,m,new A.aJ(0,25,0,0),m)],n),B.ar,B.a1),m,m,m,m,new A.aJ(30,30,30,0),m,m),A.bq(m,m,$.a6v(),m,m,0.5,new A.aJ(30,30,30,0),m,m),s.SA(0,l.b),A.l0(m,100,m)],n),B.ar,B.a1)},
+return A.k3(A.c([r,A.bq(m,A.k3(A.c([q,A.bq(m,A.k3(A.c([p,new A.ez(new A.aJ(0,20,0,0),m,m),A.js(l.a,A.aT(o).P.r,B.cl,m)],n),B.ar,B.a1),m,m,m,m,m,new A.aJ(0,25,0,0),m)],n),B.ar,B.a1),m,m,m,m,new A.aJ(30,30,30,0),m,m),A.bq(m,m,$.a6v(),m,m,0.5,new A.aJ(30,30,30,0),m,m),s.SA(0,l.c),A.l0(m,100,m)],n),B.ar,B.a1)},
 $S:313}
 A.ZV.prototype={
 $0(){var s,r=this.a.c
@@ -52288,17 +52289,18 @@ s=1
 break
 case 1:return A.a4(q,r)}})
 return A.a5($async$nd,r)},
-na(){var s=0,r=A.a6(t.Cz),q,p,o,n,m
+na(){var s=0,r=A.a6(t.Cz),q,p,o,n,m,l
 var $async$na=A.a1(function(a,b){if(a===1)return A.a3(b,r)
 while(true)switch(s){case 0:s=3
 return A.an(A.abw(A.aa8("https","raw.githubusercontent.com","underfilho/mygit/master/me.json",null),null),$async$na)
-case 3:m=b
-if(m.b===200){p=B.ae.cq(0,A.abp(A.aap(m.e).c.a.j(0,"charset")).cq(0,m.x))
+case 3:l=b
+if(l.b===200){p=B.ae.cq(0,A.abp(A.aap(l.e).c.a.j(0,"charset")).cq(0,l.x))
 o=A.c([],t.pS)
-n=new A.ro(J.aL(p,"function"),o)
-n.KA(p)}else{q=null
+n=J.av(p)
+m=new A.ro(n.j(p,"function"),n.j(p,"profile_pic"),o)
+m.KA(p)}else{q=null
 s=1
-break}q=n
+break}q=m
 s=1
 break
 case 1:return A.a4(q,r)}})
